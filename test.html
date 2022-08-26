@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼 실습</title>
+    <style>
+        #cat{ 
+        text-align:center;}
+
+        #dog{
+            margin: 0 auto;
+            width: 960px;
+       }
+       
+       li{
+        list-style: none;
+       }
+       h3{
+        margin-bottom: 0px;
+       }
+
+    </style>
+</head>
+<body>
+    <h1 id="cat">프론트엔드 개발자 지원서</h1>
+    <p id="cat">HTML,CSS,javaScript에 대한 기술적 이행화 경험이 있는 분을 찾습니다.</p>
+    <br><hr><br>
+    <fieldset id="dog">
+        <h3>개인정보</h3>
+        <p>
+            <label for="a_name">이름 : </label>
+            <input type="text" id="name" size="20"  required placeholder="공란없이 입력해주세요">
+        </p>
+        <p>
+            <label for="c_tell">연락처 : </label>
+            <input type="c_tell" id="c_tell" >
+        <h3>지원분야</h3>
+        <p>
+            <label>
+                <input type="radio" name="web" value="web">웹퍼블리싱
+            </label>
+        </p>
+        <p>
+            <label>
+             <input type="radio" name="app" value="app">웹애플리케이션
+            </label>
+        </p>
+            <label>
+                <input type="radio" name="desgin" value="desgin">웹디자인
+            </label>
+        </p>
+        <h3>jiwon</h3>        
+            <textarea id="a_memo" cols="140" rows="7" required placeholder="jiwon."></textarea>
+        <p id="cat">
+            <a href="#"><input type="submit" value="jiwon"></a>
+            <input type="reset" value="jiwon">
+        </p>
+    </fieldset>
+</body>
+</html>
